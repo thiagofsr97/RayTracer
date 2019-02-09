@@ -5,7 +5,7 @@ Thiago Filipe Soares da Rocha -  11502567
 
 # Imagem
 
-A imagem gerada com o render é de um gato feito de triângulos que possui exatamente 9 triângulos, com as cores variando de acordo com a coordenada z de cada vértice.
+A imagem gerada com o render é de um gato feito de triângulos e que possui exatamente 9 triângulos, com as cores variando de acordo com a coordenada z de cada vértice.
 # Implementação
 
 A técnica utilizada no render foi o rayTracer que dispara "raios" de um posição de origem seguindo uma direção d nos objetos que se encontram na cena, para saber se um raio atingiu um objeto uma rotina de intersecção é executada. Nesse presente trabalho as rotinas de intersecção implementadas foram para testar a intersecção entre raio e triângulo.
