@@ -1,0 +1,3 @@
+Número de Primitivas (Triângulos) = 19680.
+Tempo para importar e renderizar = 105.276 secondes.
+Descrição da cena: conjunto de vários modelos de um humano posicionado em diversas posições diferentes, sendo todos do mesmo tamanho.

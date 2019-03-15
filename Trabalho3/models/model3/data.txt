@@ -1,0 +1,3 @@
+Número de Primitivas (Triângulos) = 3868.
+Tempo para importar e renderizar = 25.7383 seconds.
+Descrição da cena: 4 cabeças de macaco de mesmo tamanho localizado em posições diferentes, apresentando em sua constituição cores aleatórias.

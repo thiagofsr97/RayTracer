@@ -1,0 +1,3 @@
+Número de Primitivas (Triângulos) = 36110
+Tempo para importar e renderizar = 167.93 seconds.
+Descrição da cena: várias triãngulo reunidos de maneira a formar um desenho em formato de pétalas.
