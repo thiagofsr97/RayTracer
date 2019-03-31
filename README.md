@@ -109,5 +109,61 @@ Below are some of model samples that were loaded and rendered using the Ray Trac
 
 ![Alt text](Trabalho3/models/model4/output_image.jpg?raw=true "Title")
 
+# Pathtracer Implementation - Activity 4
+
+The project is about the implementation of the path trace algorithm. Before the implementation of the algorithm it was necessary some changes like: to add material to the primitives and a certain quandity of light emission.
+
+## Implementation
+
+The principle for the implementation of path tracing is based on the Monte Carlo integration method, where from several samples that are randomly launched the algorithm integrates all the illuminance received at a single point on the surface of an object. As this is done for the m points of n objects in the scene, then a large number of samples per pixel is required to achieve more realistic and low noise results. To calculate the ray reflection angle a c ++ library was used to distribute the random numbers uniformly.
+
+- **All the images presents a resolution of 512x512.**
+
+### Render 1
+
+- 100 samples per pixel with depth 5
+- Time to load and render model: 83.407 seconds.
+- Number of primitives used: 7.
+- Image description: 2 triangles blue and 5 spheres of color, red, yellow, white, purple and the fifth is the light source that was positioned above the scene.
+
+### Render 2
+
+- 500 samples per pixel with depth 5
+- Time to load and render model: 409.19 seconds.
+- Number of primitives used: 7.
+- Image description: 2 triangles blue and 5 spheres of color, red, yellow, white, purple and the fifth is the light source that was positioned above the scene.
+
+### Render 1
+
+- 1000 samples per pixel with depth 5
+- Time to load and render model: 816.926 seconds.
+- Number of primitives used: 7.
+- Image description: 2 triangles blue and 5 spheres of color, red, yellow, white, purple and the fifth is the light source that was positioned above the scene.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
