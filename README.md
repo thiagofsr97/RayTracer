@@ -144,7 +144,7 @@ The principle for the implementation of path tracing is based on the Monte Carlo
 - Number of primitives used: 7.
 - Image description: 2 triangles blue and 5 spheres of color, red, yellow, white, purple and the fifth is the light source that was positioned above the scene.
 
-![Alt text](Trabalho4/Render2.png?raw=true "Title")
+![Alt text](Trabalho4/Render3.png?raw=true "Title")
 
 
 
