@@ -188,7 +188,7 @@ Multitherading has been inserted into the code through the use of the OpenMP lib
 - Number of primitives used: 13.
 - Image description: 8 triangles white and 5 spheres of color, red, yellow, white, purple and copper, two triangles are light source that was positioned above the scene.
 
-![Alt text](Trabalho5/Render3.png?raw=true "Title")
+![Alt text](Trabalho5/Render3.ppm?raw=true "Title")
 
 
 
