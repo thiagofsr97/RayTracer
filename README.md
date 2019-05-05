@@ -146,7 +146,49 @@ The principle for the implementation of path tracing is based on the Monte Carlo
 
 ![Alt text](Trabalho4/Render3.png?raw=true "Title")
 
+# BVH and Multithreading Implementation - Activity 5
 
+In this activity the implementation of acceleration and multithreading use was performed to reduce the time of rendering of the path tracing.
+
+## Implementation
+
+The structure used was the BVH with ABBBs and implemented based on Chapter 4 of the book PBRT 3a. ed.
+Multitherading has been inserted into the code through the use of the OpenMP library
+
+- **All the images presents a resolution of 512x512.**
+
+### Render 1
+
+- 100 samples per pixel with depth 5
+- Time to load and render model: 37.241 seconds.
+- Time to load and render model with Multithreading: 24.67 seconds.
+- Time to load and render model with Multithreading and BVH: 8.24 seconds.
+- Number of primitives used: 13.
+- Image description: 8 triangles white and 5 spheres of color, red, yellow, white, purple and copper, two triangles are light source that was positioned above the scene.
+
+![Alt text](Trabalho5/Render1.png?raw=true "Title")
+
+### Render 2
+
+- 500 samples per pixel with depth 5
+- Time to load and render model: 180.131 seconds.
+- Time to load and render model with Multithreading: 121.478 seconds.
+- Time to load and render model with Multithreading and BVH: 23.816 seconds.
+- Number of primitives used: 13.
+- Image description: 8 triangles white and 5 spheres of color, red, yellow, white, purple and copper, two triangles are light source that was positioned above the scene.
+
+![Alt text](Trabalho5/Render2.png?raw=true "Title")
+
+### Render 3
+
+- 1000 samples per pixel with depth 5
+- Time to load and render model: 370.127 seconds.
+- Time to load and render model with Multithreading: 250.435 seconds.
+- Time to load and render model with Multithreading and BVH: 63.751 seconds.
+- Number of primitives used: 13.
+- Image description: 8 triangles white and 5 spheres of color, red, yellow, white, purple and copper, two triangles are light source that was positioned above the scene.
+
+![Alt text](Trabalho5/Render3.png?raw=true "Title")
 
 
 
