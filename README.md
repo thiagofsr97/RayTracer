@@ -162,10 +162,10 @@ Multitherading has been inserted into the code through the use of the OpenMP lib
 - 50 samples per pixel with depth 5
 - Time to load and render model: 3527.42 seconds.
 - Time to load and render model with Multithreading: 581.45 seconds.
-- Time to load and render model with BVH: 57.464 seconds.
+- Time to load and render model with BVH: 57.46 seconds.
 - Time to load and render model with Multithreading and BVH: 16.64 seconds.
 - Number of primitives used: 3876.
-- Image description: 4 monkey heads with metal material of the same size located in different positions, 8 white triangles, 6 with difuse material and two of these triangles are light source that was positioned above the scene.
+- Image description: 4 monkey heads with metal material of the same size located in different positions, 8 white triangles 6 with difuse material and two of these triangles are light source that was positioned above the scene.
 
 ![Alt text](Trabalho5/Render1.png?raw=true "Title")
 
@@ -173,20 +173,20 @@ Multitherading has been inserted into the code through the use of the OpenMP lib
 
 - 100 samples per pixel with depth 5
 - Time to load and render model with Multithreading: 1162.67 seconds.
-- Time to load and render model with BVH: 113.176 seconds.
+- Time to load and render model with BVH: 113.17 seconds.
 - Time to load and render model with Multithreading and BVH: 32.24 seconds.
 - Number of primitives used: 3876.
-- Image description: 4 monkey heads with metal material of the same size located in different positions, 8 white triangles, 6 with difuse material and two of these triangles are light source that was positioned above the scene.
+- Image description: 4 monkey heads with metal material of the same size located in different positions, 8 white triangles 6 with difuse material and two of these triangles are light source that was positioned above the scene.
 
 ![Alt text](Trabalho5/Render2.png?raw=true "Title")
 
 ### Render 3
 
 - 1000 samples per pixel with depth 5
-- Time to load and render model with BVH: 113.176 seconds.
-- Time to load and render model with Multithreading and BVH: 63.751 seconds.
+- Time to load and render model with BVH: 990.49 seconds.
+- Time to load and render model with Multithreading and BVH: 321.47 seconds.
 - Number of primitives used: 68832.
-- Image description: 1 bullet with metal material, 8 white triangles, 6 with difuse material and two of these triangles are light source that was positioned above the scene.
+- Image description: 1 bullet with metal material, 8 white triangles 6 with difuse material and two of these triangles are light source that was positioned above the scene.
 
 ![Alt text](Trabalho5/Render3.png?raw=true "Title")
 
