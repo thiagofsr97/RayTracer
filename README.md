@@ -159,34 +159,34 @@ Multitherading has been inserted into the code through the use of the OpenMP lib
 
 ### Render 1
 
-- 100 samples per pixel with depth 5
-- Time to load and render model: 37.241 seconds.
-- Time to load and render model with Multithreading: 24.67 seconds.
-- Time to load and render model with Multithreading and BVH: 8.24 seconds.
-- Number of primitives used: 13.
-- Image description: 8 triangles white and 5 spheres of color, red, yellow, white, purple and copper, two triangles are light source that was positioned above the scene.
+- 50 samples per pixel with depth 5
+- Time to load and render model: 3527.42 seconds.
+- Time to load and render model with Multithreading: 581.45 seconds.
+- Time to load and render model with BVH: 57.464 seconds.
+- Time to load and render model with Multithreading and BVH: 16.64 seconds.
+- Number of primitives used: 3876.
+- Image description: 4 monkey heads with metal material of the same size located in different positions, 8 white triangles, 6 with difuse material and two of these triangles are light source that was positioned above the scene.
 
 ![Alt text](Trabalho5/Render1.png?raw=true "Title")
 
 ### Render 2
 
-- 500 samples per pixel with depth 5
-- Time to load and render model: 180.131 seconds.
-- Time to load and render model with Multithreading: 121.478 seconds.
-- Time to load and render model with Multithreading and BVH: 23.816 seconds.
-- Number of primitives used: 13.
-- Image description: 8 triangles white and 5 spheres of color, red, yellow, white, purple and copper, two triangles are light source that was positioned above the scene.
+- 100 samples per pixel with depth 5
+- Time to load and render model with Multithreading: 1162.67 seconds.
+- Time to load and render model with BVH: 113.176 seconds.
+- Time to load and render model with Multithreading and BVH: 32.24 seconds.
+- Number of primitives used: 3876.
+- Image description: 4 monkey heads with metal material of the same size located in different positions, 8 white triangles, 6 with difuse material and two of these triangles are light source that was positioned above the scene.
 
 ![Alt text](Trabalho5/Render2.png?raw=true "Title")
 
 ### Render 3
 
 - 1000 samples per pixel with depth 5
-- Time to load and render model: 370.127 seconds.
-- Time to load and render model with Multithreading: 250.435 seconds.
+- Time to load and render model with BVH: 113.176 seconds.
 - Time to load and render model with Multithreading and BVH: 63.751 seconds.
-- Number of primitives used: 13.
-- Image description: 8 triangles white and 5 spheres of color, red, yellow, white, purple and copper, two triangles are light source that was positioned above the scene.
+- Number of primitives used: 68832.
+- Image description: 1 bullet with metal material, 8 white triangles, 6 with difuse material and two of these triangles are light source that was positioned above the scene.
 
 ![Alt text](Trabalho5/Render3.png?raw=true "Title")
 
